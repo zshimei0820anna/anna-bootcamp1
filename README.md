@@ -1,33 +1,34 @@
 # anna-bootcamp1
 
-This repository contains my 4-month preparation work for JHU MS Health Sciences Informatics, with a focus on precision medicine informatics, biomedical informatics, clinical data analytics, cancer genomics, and reproducible research.
+This repository contains my 4-month preparation work for JHU MS Health Sciences Informatics, with a focus on Python, R, SQL, health data analytics, biomedical informatics, precision medicine, and reproducible research.
 
 ## Background
 
-Prior experience with MATLAB for chemistry-related experimental data processing, plotting, EPR data handling, and exposure to PCA/PLS during my undergraduate thesis project. This bootcamp is designed to help me transfer my MATLAB-based scientific computing background into Python, R, SQL, biomedical informatics, and health data science workflows.
+I have prior experience with MATLAB for chemistry-related experimental data processing, plotting, and EPR data handling. I have also been exposed to PCA/PLS during my undergraduate thesis project. This preparation plan builds on that scientific data background while focusing on Python, R, SQL, statistics, and health informatics skills needed for JHU MS HSI.
 
 ## Final Goal
 
-Aim to be prepared for JHU MS Health Sciences Informatics coursework and research-oriented projects.
+By the end of this 4-month preparation plan, I aim to be ready for JHU MS Health Sciences Informatics coursework and research-oriented projects.
 
 I should be able to:
 
 - Use Python, R, and SQL for health and biomedical data analysis
-- Translate MATLAB-style scientific computing workflows into Python and R
 - Use Jupyter Notebook and RStudio to produce reproducible analysis reports
-- Use Pandas, NumPy, matplotlib, seaborn, dplyr, ggplot2, and basic statistical modeling tools
+- Use Pandas, NumPy, Matplotlib, Seaborn, dplyr, ggplot2, and basic statistical modeling tools
 - Query relational health data using SQL
-- Understand patient, encounter, diagnosis, lab, medication, specimen, molecular, and outcome tables
-- Understand core biomedical informatics concepts relevant to clinical data, precision medicine, decision support, and research methods
-- Run and interpret regression models, including linear regression, logistic regression, and Cox proportional hazards models
-- Perform basic dimensionality reduction and multivariable modeling, including PCA and regularized regression
+- Understand common health data structures, including patient, encounter, diagnosis, lab, medication, specimen, molecular, and outcome tables
+- Understand core concepts in biomedical informatics, clinical informatics, precision medicine, decision support, and research methods
+- Clean, transform, summarize, visualize, and interpret health-related datasets
+- Run and interpret linear regression, logistic regression, and Cox proportional hazards models
+- Understand basic model evaluation, including train-test split, ROC curve, AUC, sensitivity, specificity, and calibration
+- Understand basic dimensionality reduction and feature selection concepts, including PCA and regularized regression
 - Analyze public health, clinical, cancer genomics, or precision medicine datasets
-- Partially reproduce a simplified regression-based or survival-analysis-based precision medicine study
+- Partially reproduce a simplified regression-based or survival-analysis-based health or precision medicine study
 - Organize code, figures, tables, notes, and project documentation using GitHub
 
 ## JHU MS HSI Alignment
 
-This plan is designed to support preparation for core JHU MS Health Sciences Informatics themes, including:
+This plan is designed to support preparation for core JHU MS Health Sciences Informatics coursework and project work, including:
 
 - Introduction to Precision Medicine Data Analytics
 - Introduction to Biomedical Informatics
@@ -38,87 +39,96 @@ This plan is designed to support preparation for core JHU MS Health Sciences Inf
 - Health Sciences Informatics Research Methods
 - Capstone or thesis project preparation
 
-## Month 1: MATLAB-to-Python Scientific Data Analysis and Health Data Foundations
+## Month 1: Python, Jupyter, and Health Data Analysis Foundations
 
-Goal: Move from MATLAB-based scientific data handling to Python-based reproducible biomedical data analysis.
+Goal: Build practical Python fluency for health data analysis and reproducible notebook-based reporting.
 
-By the end of Month 1, I should be able to use Python and Jupyter Notebook to clean, transform, summarize, visualize, and document tabular biomedical or health-related datasets.
+By the end of Month 1, I should be able to use Python and Jupyter Notebook to load, inspect, clean, summarize, visualize, and interpret tabular health-related datasets.
 
 Weekly plan:
 
-- Week 1: Python for MATLAB users
-  - Python syntax only as needed for scientific computing
-  - Differences between MATLAB and Python indexing, arrays, functions, scripts, and notebooks
-  - NumPy arrays, vectorized operations, indexing, slicing, broadcasting, and matrix-style thinking
-  - Jupyter Notebook workflow, Markdown documentation, reproducible analysis structure
-  - Mini-task: Recreate a simple MATLAB-style data processing workflow in Python
+- Week 1: Python and Jupyter foundations for health data
+  - Jupyter Notebook workflow
+  - Markdown documentation
+  - Variables, strings, numbers, booleans
+  - Lists, dictionaries, loops, conditionals, and functions
+  - Writing simple rule-based clinical classification functions
+  - Creating small patient-level datasets
+  - Basic debugging and reading error messages
+  - Mini-task: Create a simulated patient dataset and classify patients using clinical threshold logic
 
-- Week 2: Pandas for experimental and health data
-  - DataFrame structure compared with MATLAB tables
-  - Reading CSV/Excel files
-  - Inspecting data using shape, head, info, describe, value_counts
-  - Filtering, selecting, sorting, creating variables, and recoding categories
-  - Handling missing values, duplicate rows, data types, and date/time variables
-  - Mini-task: Clean and summarize a simulated patient or biomedical dataset
+- Week 2: Pandas and NumPy for structured health data
+  - DataFrame and Series concepts
+  - Reading CSV and Excel files
+  - Inspecting datasets using shape, head, info, describe, value_counts
+  - Selecting columns and filtering rows
+  - Creating new variables
+  - Recoding categorical variables
+  - Handling missing values and duplicate rows
+  - Mini-task: Clean and summarize a small health dataset
 
-- Week 3: Visualization and exploratory biomedical data analysis
-  - matplotlib and seaborn for publication-style exploratory figures
-  - Histograms, boxplots, scatterplots, line plots, grouped bar charts, heatmaps
+- Week 3: Exploratory data analysis and visualization
   - Grouped summaries using groupby
-  - Correlation analysis and visual inspection of variables
-  - Comparison with MATLAB plotting workflow
-  - Mini-task: Create a figure panel for a health or biomedical dataset
+  - Cross-tabulation and frequency tables
+  - Histograms, boxplots, scatterplots, line plots, bar charts, and heatmaps
+  - Correlation analysis
+  - Writing interpretation sections for figures and tables
+  - Mini-task: Create an exploratory analysis notebook with summary tables and plots
 
-- Week 4: First structured health data analysis project
-  - Full Python notebook project
+- Week 4: Month 1 mini-project
+  - Full Python notebook workflow
   - Data import, cleaning, feature creation, exploratory analysis, visualization, and interpretation
-  - Write results in Markdown using a clear scientific reporting style
+  - Clear Markdown explanations
+  - Short limitations section
   - Mini-project: Exploratory analysis of a public or simulated health dataset
 
 Month 1 deliverable:
 
-- A polished Jupyter Notebook that analyzes a health or biomedical dataset using Python
-- The notebook should include clean code, Markdown explanation, summary tables, figures, and a short interpretation section
+- A polished Jupyter Notebook analyzing a public or simulated health dataset using Python
+- The notebook should include data cleaning, summary tables, figures, interpretation, and limitations
 
-Month 1 standard for high performance:
+Month 1 high-performance standard:
 
-- I can independently receive a messy CSV file and produce an analysis-ready dataset
+- I can receive a tabular health dataset and produce a clean exploratory analysis notebook
 - I can explain each data-cleaning decision
-- I can produce interpretable plots rather than just code output
-- I can write a short scientific summary of the results
-## Month 2: SQL, Relational Clinical Data, R, and Biomedical Informatics Foundations
+- I can transform raw measurements into interpretable variables
+- I can write a concise scientific interpretation of tables and figures
+## Month 2: SQL, Relational Health Data, R, and Biomedical Informatics Foundations
 
 Goal: Build the database and informatics foundation needed for Database Querying in Health, Applied Clinical Informatics, and biomedical informatics coursework.
 
-By the end of Month 2, I should be able to understand and query relational health data, then analyze the extracted data using Python or R.
+By the end of Month 2, I should be able to query relational health data, understand common clinical data structures, and analyze extracted data using Python or R.
 
 Weekly plan:
 
-- Week 5: SQL fundamentals for clinical data
+- Week 5: SQL fundamentals for health data
   - SELECT, WHERE, ORDER BY, LIMIT, DISTINCT
-  - Filtering by demographics, diagnoses, lab values, medications, and dates
-  - Basic database thinking: rows, columns, primary keys, foreign keys
+  - Filtering patients by demographics, diagnoses, lab values, medications, and dates
+  - Basic database concepts: tables, rows, columns, primary keys, foreign keys
+  - Patient-level versus encounter-level data
   - Mini-task: Query a patient table and create demographic summaries
 
 - Week 6: SQL aggregation and clinical summary tables
   - COUNT, AVG, SUM, MIN, MAX
   - GROUP BY and HAVING
-  - Case statements for derived categories
-  - Creating cohort counts and stratified summaries
-  - Mini-task: Generate patient-level and encounter-level summary tables
+  - CASE WHEN statements
+  - Derived categories and cohort flags
+  - Cohort counts and stratified summaries
+  - Mini-task: Generate clinical summary tables from relational data
 
 - Week 7: Multi-table relational health data
-  - INNER JOIN, LEFT JOIN, one-to-many relationships
-  - patient_id, encounter_id, specimen_id, diagnosis_id
+  - INNER JOIN and LEFT JOIN
+  - One-to-one and one-to-many relationships
+  - patient_id, encounter_id, diagnosis_id, lab_id, medication_id, specimen_id
   - Joining patient, encounter, diagnosis, lab, medication, and outcome-style tables
-  - Common clinical data problems: duplicated rows after joins, repeated encounters, longitudinal records
+  - Common join problems: duplicated rows, repeated encounters, and incorrect denominators
   - Mini-task: Build an analysis-ready table from multiple simulated clinical tables
 
-- Week 8: R for statistical reporting and biomedical analysis
+- Week 8: R basics for health data analysis
   - RStudio workflow
   - data.frame and tibble
   - dplyr: select, filter, mutate, group_by, summarise, arrange, left_join
-  - ggplot2: scatterplot, boxplot, histogram, line plot, grouped bar chart
+  - ggplot2: histogram, boxplot, scatterplot, line plot, grouped bar chart
   - Comparison between Pandas and dplyr workflows
   - Mini-task: Repeat one Python analysis in R
 
@@ -127,12 +137,13 @@ Biomedical informatics concepts to learn:
 - EHR structure
 - Patient and encounter data
 - Diagnosis, procedure, medication, and lab data
-- ICD, CPT, LOINC, RxNorm at a conceptual level
-- FHIR, OMOP, and clinical data models at a conceptual level
+- ICD, CPT, LOINC, and RxNorm at a conceptual level
+- FHIR and OMOP at a conceptual level
 - Cohort definition
 - Phenotyping
 - Clinical outcome definition
-- Data provenance and reproducibility
+- Data provenance
+- Reproducibility
 
 Month 2 deliverables:
 
@@ -140,17 +151,17 @@ Month 2 deliverables:
 - A small relational health data project that joins multiple tables and produces an analysis-ready table
 - A short R script or R Markdown file that performs cleaning, summary, and visualization
 
-Month 2 standard for high performance:
+Month 2 high-performance standard:
 
 - I can translate a clinical question into SQL queries
-- I can recognize patient-level versus encounter-level analysis
+- I can distinguish patient-level, encounter-level, and observation-level analyses
 - I can avoid common join mistakes
-- I can move data from SQL into Python or R for analysis
-## Month 3: Biostatistics, Regression, Survival Analysis, and Precision Medicine Modeling
+- I can move data from SQL into Python or R for further analysis
+## Month 3: Biostatistics, Regression, Survival Analysis, and Model Evaluation
 
 Goal: Build the statistical modeling foundation needed for Research Methods, Precision Medicine Data Analytics, and future capstone or thesis work.
 
-By the end of Month 3, I should be able to run, evaluate, and interpret basic models used in biomedical and precision medicine studies.
+By the end of Month 3, I should be able to choose, run, evaluate, and interpret basic statistical models used in health and biomedical studies.
 
 Weekly plan:
 
@@ -158,36 +169,39 @@ Weekly plan:
   - Descriptive statistics
   - Distributions, sampling, standard error, confidence intervals
   - p-values and hypothesis testing
-  - t-test, chi-square test, nonparametric alternatives at a practical level
+  - t-test, chi-square test, and nonparametric alternatives at a practical level
   - Study design basics: cohort, case-control, cross-sectional analysis
   - Bias, confounding, missing data, and reproducibility
-  - Mini-task: Write a statistical analysis plan for a small health dataset
+  - Mini-task: Write a short statistical analysis plan for a small health dataset
 
 - Week 10: Regression modeling for health outcomes
-  - Linear regression
-  - Logistic regression
-  - Coefficients, odds ratios, confidence intervals, p-values
+  - Linear regression for continuous outcomes
+  - Logistic regression for binary outcomes
+  - Coefficients, odds ratios, confidence intervals, and p-values
   - Covariate adjustment and confounding
   - Model assumptions and interpretation
   - Mini-task: Fit and interpret a logistic regression model for a binary health outcome
 
 - Week 11: Model evaluation and machine learning foundations
-  - Train-test split and cross-validation
-  - Confusion matrix, sensitivity, specificity, precision, recall
+  - Train-test split
+  - Cross-validation
+  - Confusion matrix
+  - Sensitivity, specificity, precision, recall
   - ROC curve and AUC
   - Calibration basics
   - Regularized regression: LASSO, ridge, elastic net
-  - Connection to PCA/PLS and high-dimensional biomedical predictors
+  - PCA and feature reduction concepts
   - Mini-task: Compare logistic regression and regularized regression on a health dataset
 
 - Week 12: Survival analysis and precision medicine outcomes
   - Time-to-event data
+  - Censoring
   - Kaplan-Meier curves
   - Log-rank test
   - Cox proportional hazards model
   - Hazard ratios and survival interpretation
   - Overall survival and progression-free survival
-  - Mini-task: Fit a Cox model using a public or simulated cancer dataset
+  - Mini-task: Fit a Kaplan-Meier curve and Cox model using a public or simulated cancer dataset
 
 Precision medicine concepts to learn:
 
@@ -206,34 +220,35 @@ Precision medicine concepts to learn:
 
 Month 3 deliverables:
 
-- A regression analysis project using Python or R
+- A regression analysis notebook using Python or R
 - A survival analysis notebook using R or Python
-- A short written report interpreting model results in biomedical terms
+- A short written report interpreting model results in biomedical or clinical terms
 
-Month 3 standard for high performance:
+Month 3 high-performance standard:
 
 - I can choose an appropriate model for continuous, binary, and time-to-event outcomes
 - I can interpret coefficients, odds ratios, hazard ratios, p-values, and confidence intervals
 - I can evaluate model performance and explain limitations
 - I can connect statistical models to clinical or precision medicine questions
-## Month 4: Precision Medicine, Cancer Informatics, Decision Support, and Paper Reproduction
+## Month 4: Precision Medicine, Clinical Decision Support, and Paper Reproduction
 
-Goal: Apply programming, SQL, statistics, and biomedical informatics skills to a final project aligned with precision medicine informatics, cancer genomics, and health sciences informatics research.
+Goal: Apply programming, SQL, statistics, and biomedical informatics skills to a final project aligned with JHU HSI coursework and potential research interests.
 
-By the end of Month 4, I should be able to complete a small but rigorous project that resembles the structure of a JHU HSI course project or early capstone idea.
+By the end of Month 4, I should be able to complete a small but rigorous project that resembles the structure of a JHU HSI course project, capstone idea, or early research preparation project.
 
 Weekly plan:
 
-- Week 13: Public precision medicine and cancer data resources
+- Week 13: Public health, clinical, and precision medicine data resources
   - TCGA
   - cBioPortal
   - AACR Project GENIE
   - GEO
+  - MIMIC demo or other accessible clinical datasets
   - Clinical annotation files
   - Mutation tables
   - Gene expression matrices
   - Survival and outcome variables
-  - Mini-task: Download or access one public cancer dataset and create a data dictionary
+  - Mini-task: Select one public dataset and create a data dictionary
 
 - Week 14: Knowledge engineering and decision support concepts
   - Clinical decision support basics
@@ -241,23 +256,24 @@ Weekly plan:
   - Risk scores
   - Basic FHIR and CDS concepts
   - Translating model results into clinical interpretation
-  - Ethical issues: bias, privacy, data leakage, clinical validity, model generalizability
-  - Mini-task: Design a simple decision-support logic based on a regression or risk model
+  - Ethical issues: bias, privacy, data leakage, clinical validity, and model generalizability
+  - Mini-task: Design a simple decision-support logic based on a clinical rule or risk model
 
 - Week 15: Paper reproduction pipeline
-  - Select one recent precision medicine, cancer genomics, computational pathology, or biomedical informatics paper
+  - Select one health informatics, precision medicine, oncology informatics, or biomedical informatics paper
   - Identify the research question, cohort, predictors, outcome, model, and evaluation method
   - Reproduce a simplified version of the analysis using public data
   - Focus on regression, regularized regression, or survival analysis rather than deep learning
   - Mini-task: Produce a reproducible notebook that mirrors the paper's core analysis logic
 
-- Week 16: Final project polishing and GitHub presentation
+- Week 16: Final project polishing and presentation
   - Clean code and folder structure
   - Finalize figures and tables
   - Write README and methods summary
   - Document limitations and next steps
-  - Prepare a 1-page project summary and a 5-minute oral explanation
-  - Mini-task: Final GitHub repository cleanup and final project write-up
+  - Prepare a 1-page project summary
+  - Prepare a 5-minute oral explanation
+  - Mini-task: Final GitHub repository cleanup and project write-up
 
 Possible final project topics:
 
@@ -267,19 +283,45 @@ Possible final project topics:
 - Exploratory mutation frequency analysis using cBioPortal or GENIE-style data
 - Gene expression signature analysis with regression or survival outcomes
 - Simplified reproduction of a published precision medicine analytics study
-- Simple clinical decision-support prototype based on a risk model
+- Simple clinical decision-support prototype based on a clinical rule or risk model
 
 Month 4 deliverables:
 
-- A final precision medicine or cancer informatics mini-project
+- A final health informatics or precision medicine mini-project
 - A reproducible GitHub repository with code, figures, tables, README, and written interpretation
-- A short project report written in a scientific format
-- A brief presentation-style summary for future advisor or course discussion
+- A short scientific report
+- A brief presentation-style summary for future course, capstone, or research discussion
 
-Month 4 standard for high performance:
+Month 4 high-performance standard:
 
-- I can define a precise biomedical informatics question
+- I can define a precise biomedical or health informatics question
 - I can justify the dataset, variables, outcome, and model
 - I can reproduce a simplified analysis pipeline from a paper
 - I can explain limitations clearly
 - I can present the project in a way that is understandable to a course instructor or potential research mentor
+## Final Project Standard
+
+At the end of this bootcamp, my final project should demonstrate that I can:
+
+- Define a clear health informatics or precision medicine research question
+- Load, inspect, and document a public biomedical or health dataset
+- Clean and transform clinical and/or molecular variables
+- Use SQL or Pandas to create analysis-ready tables
+- Perform exploratory data analysis
+- Apply regression, regularized regression, or survival analysis
+- Evaluate model performance or interpret survival results
+- Interpret findings in a biomedical informatics or clinical context
+- Relate computational results to clinical relevance and limitations
+- Organize code, figures, tables, and outputs clearly in GitHub
+- Write a concise scientific report and README
+- Explain the project verbally as preparation for JHU coursework, capstone, or research mentorship
+
+## Folder Structure
+
+- `data/`: public or simulated datasets only
+- `notebooks/`: Jupyter notebooks
+- `scripts/`: Python and R scripts
+- `sql/`: SQL queries
+- `outputs/`: figures, result tables, and model outputs
+- `papers/`: notes on relevant papers and reproduction targets
+- `reports/`: short written summaries and final project reports
