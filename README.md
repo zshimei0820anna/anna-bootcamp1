@@ -1,14 +1,14 @@
 # anna-bootcamp1
 
-This repository contains my 4-month preparation work for JHU MS Health Sciences Informatics, with a focus on Python, R, SQL, health data analytics, biomedical informatics, precision medicine, and reproducible research.
+This repository contains my summer preparation work for JHU MS Health Sciences Informatics, with a focus on Python, R, SQL, health data analytics, biomedical informatics, precision medicine, and reproducible research.
 
 ## Background
 
-I have prior experience with MATLAB for chemistry-related experimental data processing, plotting, and EPR data handling. I have also been exposed to PCA/PLS during my undergraduate thesis project. This preparation plan builds on that scientific data background while focusing on Python, R, SQL, statistics, and health informatics skills needed for JHU MS HSI.
+I have prior experience with MATLAB for chemistry-related experimental data processing and plotting. I have also been exposed to PCA/PLS during my undergraduate thesis project. This preparation plan builds on that scientific data background while focusing on Python, R, SQL, statistics, and health informatics skills needed for JHU MS HSI.
 
 ## Final Goal
 
-By the end of this 4-month preparation plan, I aim to be ready for JHU MS Health Sciences Informatics coursework and research-oriented projects.
+By the end of this summer preparation plan, I aim to be ready for JHU MS Health Sciences Informatics coursework and research-oriented projects.
 
 I should be able to:
 
