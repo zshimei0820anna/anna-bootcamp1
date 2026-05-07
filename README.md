@@ -57,15 +57,15 @@ Weekly plan:
   - Basic debugging and reading error messages
   - Mini-task: Create a simulated patient dataset and classify patients using clinical threshold logic
 
-- Week 2: Pandas and NumPy for structured health data
-  - DataFrame and Series concepts
-  - Reading CSV and Excel files
-  - Inspecting datasets using shape, head, info, describe, value_counts
-  - Selecting columns and filtering rows
-  - Creating new variables
-  - Recoding categorical variables
-  - Handling missing values and duplicate rows
-  - Mini-task: Clean and summarize a small health dataset
+## Week 2: Pandas and NumPy for Biomedical Tabular Data
+
+- Focus: structured biomedical data analysis using Pandas and NumPy
+- Dataset: Breast Cancer Wisconsin Diagnostic Dataset
+- Core skills: `DataFrame`, `Series`, `read_csv`, `head`, `shape`, `info`, `describe`, `value_counts`
+- Data cleaning: select columns, filter rows, check missing values, check duplicates, recode diagnosis labels
+- Analysis task: compare selected numeric tumor features between benign and malignant samples
+- Output: dataset inspection, diagnosis summary, feature summaries, grouped summaries, and short interpretation
+- Deliverable: `month1_week2_breast_cancer_pandas_basics.ipynb`
 
 - Week 3: Exploratory data analysis and visualization
   - Grouped summaries using groupby
